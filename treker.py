@@ -79,8 +79,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "Это трекер события зделал Михалыч!"))
-        self.label_2.setText(_translate("MainWindow", "Описание события"))
+        self.label.setText(_translate("MainWindow", "Это трекер события сделал Михалыч!"))
+        self.label_2.setText(_translate("MainWindow", "Описание события:"))
         self.pushButton.setText(_translate("MainWindow", "Следить"))
         self.label_3.setText(_translate("MainWindow", "До наступления события осталась хх дней"))
 
